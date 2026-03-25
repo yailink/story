@@ -1,0 +1,8 @@
+# 封鎖所有爬蟲
+User-agent: *
+Disallow: /
+
+# 允許 Google 爬蟲
+User-agent: Googlebot
+Allow: /story/
+Disallow: /
